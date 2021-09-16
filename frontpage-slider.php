@@ -8,7 +8,7 @@
  * Requires at least: 	5.3
  * Requires PHP:      	7.3
  * Author:            	Milkan Trninic
- * Author URI:         	http://mitrninic.wordpress.com
+ * Author URI:         	http://milkan2002.wordpress.com
  * Text Domain:       	frontpage-slider
  * License:           	GPLv2 or later
  * License URI:       	http://www.gnu.org/licenses/gpl-2.0.txt
