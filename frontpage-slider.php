@@ -37,6 +37,9 @@ if ( !class_exists( 'Frontpage_slider' ) ) {
             include_once( plugin_dir_path( __FILE__ ) . 'inc/metaboxes/slider_meta_box.php' );
             add_action( 'init', array( $this, 'custom_post_type'));
             add_filter( "plugin_action_links_$this->plugin", array( $this, 'settings_link' ) );
+            add_action( 'wp_enqueue_scripts', array( $this, 'frontStyles' ) );
+            add_action('wp_footer', [$this, 'fp_hook_javascript_footer']);
+            
         }
      
         function custom_post_type() {
@@ -44,7 +47,22 @@ if ( !class_exists( 'Frontpage_slider' ) ) {
 			include_once( plugin_dir_path( __FILE__ ) . 'inc/post-types.php' );
 		}
     }
+
+    function frontStyles (){
+        wp_enqueue_style( 'swiper-css-library', plugins_url( '/public/css/swiper.min.css', __FILE__ ) );
+        wp_enqueue_style( 'custom_swiper_css', plugins_url( '/public/css/custom_swiper.css', __FILE__ ) );
+       
+    }
+
     
+function fp_hook_javascript_footer() {
+    //swiper.js
+    wp_enqueue_script( 'swiper-bundle', plugins_url( '/public/js/swiper-bundle.min.js', __FILE__ ) );
+    //initialize swiper
+    wp_enqueue_script( 'initialize-swiper', plugins_url( '/public/js/initializeSwiper.js', __FILE__ ) );
+}
+
+  
 		public function settings_link( $links ) {
 			$settings_link = '<a href="edit.php?post_type=fp_images">Show Sliders</a>';
 			array_push( $links, $settings_link );
