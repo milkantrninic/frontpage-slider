@@ -45,6 +45,11 @@ function SD_post_meta( $post ) { ?>
             padding: 0 10px 10px 10px;
             margin: 10px 0 0 0;
         }
+        .div_cat2 {
+            background: #FFE5CF;
+            padding: 0 10px 10px 10px;
+            margin: 10px 0 0 0;
+        }
         .wp-die-message, p {
     font-size: 13px;
     line-height: 1.5;

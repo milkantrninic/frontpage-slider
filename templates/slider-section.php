@@ -1,6 +1,6 @@
 <?php
 class SliderSection { 
-    
+    //this is header slider template
     public static function frontpageSlider() { ?>
 <!-- Slider main container Start -->
 
@@ -23,7 +23,14 @@ class SliderSection {
         $loop->the_post();
                 ?>
                 
-                <div class="home3-slide-item swiper-slide"  style="background-image: url('<?php echo the_post_thumbnail_url($loop->ID,'full'); ?>');" >
+                <div class="home3-slide-item swiper-slide"   >
+                <picture>
+                    <source media="(min-width: 1199px)" srcset="<?php echo the_post_thumbnail_url('fp_main_slider'); ?>">
+                    <source media="(min-width: 1024px)" srcset="<?php echo the_post_thumbnail_url('fp_ipad_slider'); ?>">
+                    <source media="(min-width: 768px)" srcset="<?php echo the_post_thumbnail_url('fp_ipad_slider'); ?>">
+                    <img src="<?php echo the_post_thumbnail_url('fp_mobile_slider'); ?>" style="width:auto;">
+                </picture>
+                <div class="central_content">
                     <div class="container">
                         <div class="slider_p1"><?php echo esc_attr( get_post_meta( get_the_ID(), 'slider_fp', true ) ); ?></div>
                         <div class="slider_p2"><?php echo esc_attr( get_post_meta( get_the_ID(), 'slider_fp2', true ) ); ?></div>
@@ -52,20 +59,14 @@ class SliderSection {
                         ?>
                         </div>
                     </div>
+                    </div>
                 </div>
                  
-    <?php }?>
+    <?php }
+    wp_reset_postdata();
+    ?>
              
 
-<!--                <div class="home3-slide-item swiper-slide" data-swiper-autoplay="5000" data-bg-image="https://eishesstyle.brainstorm.rs/wp-content/uploads/2020/10/irina-banner-2.jpg">-->
-<!--                    <div class="container">-->
-<!--                        <div class="home3-slide-content">-->
-<!--                            <h5 class="sub-title">Handicraft shop</h5>-->
-<!--                            <h2 class="title">Decorative Box <br>for New Aspiration</h2>-->
-<!--                            <div class="link"><a href="shop.html" class="btn btn-black btn-hover-primary">shop now</a></div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
             </div>
             <div class="home3-slider-prev swiper-button-prev"><i class="ti-angle-left"></i></div>
             <div class="home3-slider-next swiper-button-next"><i class="ti-angle-right"></i></div>
@@ -77,6 +78,7 @@ class SliderSection {
 <?php 
 //end of frontpage slider
     }
+    //this is banner slider template
        public static function bannerSlider() { ?>
  <!-- Page Title/Header Start -->
     <div class="home3-slider swiper-container" style="height:100%;">
@@ -98,10 +100,11 @@ class SliderSection {
                 ?>
                 <div class="page-title-section section swiper-slide"  style="height:100%;">
                 <picture>
-                    <source media="(min-width: 1024px)" srcset="<?php echo the_post_thumbnail_url('shopbanner'); ?>">
-                    <source media="(min-width: 768px)" srcset="<?php echo the_post_thumbnail_url('shopbanner'); ?>">
-                    <img src="<?php echo the_post_thumbnail_url('shopbanner'); ?>" style="width:auto;">
-                    </picture>
+                <source media="(min-width: 1199px)" srcset="<?php echo the_post_thumbnail_url('fp_shop_banner'); ?>">
+                    <source media="(min-width: 1024px)" srcset="<?php echo the_post_thumbnail_url('fp_ipad_slider'); ?>">
+                    <source media="(min-width: 768px)" srcset="<?php echo the_post_thumbnail_url('fp_ipad_slider'); ?>">
+                    <img src="<?php echo the_post_thumbnail_url('fp_mobile_slider'); ?>" style="width:auto;">
+                </picture>
                     <div class="container">
                         <div class="row">
                             <div class="col">
@@ -119,7 +122,8 @@ class SliderSection {
                     </div>
                 </div>
          
-          <?php }?>
+          <?php }
+          wp_reset_postdata(); ?>
            </div>
          </div>
     <!-- Page Title/Header End -->

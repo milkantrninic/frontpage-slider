@@ -15,6 +15,7 @@
     float: left;
     width: 100%;
   }
+  .page-title-section {padding: 0!important;}
   .section-fluid {
     padding-right: 0px;
     padding-left: 0px;
@@ -43,6 +44,14 @@
   }
   .home3-slider {
     height: 1000px;
+  }
+  .swiper-slide {
+    position: relative;
+  }
+  .central_content {
+    position: absolute;
+    max-width: 100%!important;
+    width: 100%;
   }
   .swiper-wrapper {
     position: relative;
@@ -374,14 +383,12 @@
 
   /****boxes under header***/
   
-.slider_p1 {
-        
-    font-size: 16px;
+  .slider_p1 {
     color: rgb(255, 255, 255);
     visibility: inherit;
     transition: none 0s ease 0s;
     text-align: inherit;
-    line-height: 42px;
+    line-height: 21px;
     border-width: 0px;
     margin: 0px;
     padding: 0px;
@@ -392,34 +399,33 @@
     max-height: none;
     max-width: none;
     text-align: center;
-    }
+    font-size: 23px
+}
     .slider_p2 {
-        color: rgb(255, 255, 255);
-        visibility: inherit;
-        transition: none 0s ease 0s;
-        text-align: inherit;
-        line-height: 16px;
-        border-width: 0px;
-        margin: 25px auto;
-        padding: 0;
-        letter-spacing: 0px;
-        font-weight: 300;
-        font-size: 30px;
-        min-height: 0px;
-        min-width: 0px;
-        max-height: none;
-        max-width: 409px;
-        text-align: center;
-        font-size: 16px;
-    }
+      color: rgb(255, 255, 255);
+      visibility: inherit;
+      transition: none 0s ease 0s;
+      text-align: inherit;
+      border-width: 0px;
+      margin: 25px auto;
+      padding: 0;
+      letter-spacing: 0px;
+      font-weight: 300;
+      font-size: 20px;
+      min-height: 0px;
+      min-width: 0px;
+      max-height: none;
+      max-width: 409px;
+      text-align: center;
+      line-height: 18px;
+  }
     .slide_cat a {
-        color: white;
-        padding: 10px 15px;
-        border: 2px solid white; 
-        text-align: center;
-        margin: 20px 0;
-        width: 76px;
-        font-size: 12px;
+      color: white;
+      padding: 10px 15px;
+      border: 2px solid white;
+      text-align: center;
+      margin: 0;
+      width: 76px;
     }
 
     .slide_cat div { 
@@ -434,6 +440,89 @@
     justify-content: space-between;
     }
 
+    @media only screen and (min-width: 768px) and (max-width: 991px){
+    .slide_cat {
+        padding: 0!important;
+    }
+    .slide_cat a {
+      color: white;
+      padding: 15px 0;
+      border: 2px solid white;
+      text-align: center;
+      margin: 0;
+      width: 130px;
+      font-size: 18px;
+  }
+  .slider_p2 {
+    color: rgb(255, 255, 255);
+    visibility: inherit;
+    transition: none 0s ease 0s;
+    text-align: inherit;
+    line-height: 32px;
+    border-width: 0px;
+    margin: 15px auto;
+    padding: 0;
+    letter-spacing: 0px;
+    font-weight: 300;
+    font-size: 27px;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: 409px;
+    text-align: center;
+}
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1199px){
+    .slide_cat {
+        padding: 0!important;
+    }
+    .slide_cat a {
+      color: white;
+      padding: 15px 35px;
+      border: 2px solid white;
+      text-align: center;
+      margin: 0!important;
+      width: 130px!important;
+      font-size: 23px;
+  }
+  .slider_p1 {
+    color: rgb(255, 255, 255);
+    visibility: inherit;
+    transition: none 0s ease 0s;
+    text-align: inherit;
+    line-height: 21px;
+    border-width: 0px;
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: 0px;
+    font-weight: 800;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    text-align: center;
+    font-size: 36px;
+}
+.slider_p2 {
+
+  color: rgb(255, 255, 255);
+    visibility: inherit;
+    transition: none 0s ease 0s;
+    text-align: inherit;
+    border-width: 0px;
+    margin: 25px auto;
+    padding: 0;
+    letter-spacing: 0px;
+    font-weight: 300;
+    font-size: 30px;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: 409px;
+    text-align: center;
+    line-height: 29px;
+  }
+}
 /***X-Large devices (large desktops, 1200px and up)***/
 @media (min-width: 1200px) { 
     .slider_p1 {
