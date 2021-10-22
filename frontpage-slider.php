@@ -4,7 +4,7 @@
  * Plugin Name:      	FrontPage Slider
  * Plugin URI:        	https://github.com/milkan-trn/frontpage-slider
  * Description:         FrontPage slider has predesignated templates that you can use inside your theme
- * Version:           	0.0.1
+ * Version:           	0.1.1
  * Requires at least: 	5.3
  * Requires PHP:      	7.3
  * Author:            	Milkan Trninic

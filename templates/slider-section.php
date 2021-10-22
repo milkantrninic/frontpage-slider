@@ -54,7 +54,7 @@ class SliderSection {
                         ?>
                         <div class="row slide_cat"> 
                             <?php for ($x = 0; $x <= $count_cat-1; $x++) { ?>
-                            <div class="d-flex justify-content-around"><a href="<?php echo $cat_links[$x]; ?>"><?php echo $cat_boxes[$x]; ?></a></div>
+                            <div class="d-flex justify-content-around"><a href="<?php echo esc_url($cat_links[$x]); ?>"><?php echo esc_attr($cat_boxes[$x]); ?></a></div>
                         <?php }
                         ?>
                         </div>
@@ -113,7 +113,7 @@ class SliderSection {
                                     <h1 class="title">Pozovite nas</h1>
                                     <ul class="breadcrumb">
                                         <li class="breadcrumb-item"><a href="/">Home</a></li>
-                                        <li class="breadcrumb-item active"><?php echo $page_name;?></li>
+                                        <li class="breadcrumb-item active"><?php echo esc_attr($page_name);?></li>
                                     </ul>
                                 </div>
 
