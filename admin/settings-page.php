@@ -12,7 +12,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 
 // display the plugin settings page
-function settings_menu_function() {
+function fpsl_settings_menu_function() {
 	
 	// check if user is allowed access
 	if ( ! current_user_can( 'manage_options' ) ) return;

@@ -3,10 +3,10 @@
 /* 
  * sd_login metaboxes.
  */
-class Slider_meta_boxes {
+class fpsl_Slider_meta_boxes {
     public function __construct() {
-        add_action( 'add_meta_boxes', array( $this, 'sd_register_metaboxes' ) );
-        add_action( 'save_post', array( $this, 'sd_save_meta_box' ) );
+        add_action( 'add_meta_boxes', array( $this, 'fpsl_sd_register_metaboxes' ) );
+        add_action( 'save_post', array( $this, 'fpsl_sd_save_meta_box' ) );
         
     }
 
@@ -14,9 +14,9 @@ class Slider_meta_boxes {
    /**
      *  It will register metaboxes
      */
-    public function sd_register_metaboxes() { 
+    public function fpsl_sd_register_metaboxes() { 
         
-      add_meta_box( 'sd_login_meta_box', __( "Unesi tekst na slajdu"), array( $this, 'SD_post_meta' ), 'fp_images', 'normal', 'high' );
+      add_meta_box( 'sd_login_meta_box', __( "Unesi tekst na slajdu"), array( $this, 'fpsl_SD_post_meta' ), 'fp_images', 'normal', 'high' );
     }
     
     
@@ -26,7 +26,7 @@ class Slider_meta_boxes {
  *
  * @param WP_Post $post Current post object.
  */
-function SD_post_meta( $post ) { ?>
+function fpsl_SD_post_meta( $post ) { ?>
    <div class="hcf_box">
     <style scoped>
         .hcf_box{
@@ -139,7 +139,7 @@ function SD_post_meta( $post ) { ?>
 </div>
 <?php }
 
-function sd_save_meta_box( $post_id ) {
+function fpsl_sd_save_meta_box( $post_id ) {
     if ( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE ) return;
     if ( $parent_id = wp_is_post_revision( $post_id ) ) {
         $post_id = $parent_id;
@@ -169,4 +169,4 @@ function sd_save_meta_box( $post_id ) {
     /**class end*/
     }
     
-    new Slider_meta_boxes();
+    new fpsl_Slider_meta_boxes();

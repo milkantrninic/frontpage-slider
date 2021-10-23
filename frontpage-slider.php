@@ -4,7 +4,7 @@
  * Plugin Name:      	FrontPage Slider
  * Plugin URI:        	https://github.com/milkan-trn/frontpage-slider
  * Description:         FrontPage slider has predesignated templates that you can use inside your theme
- * Version:           	0.1.1
+ * Version:           	0.1.2
  * Requires at least: 	5.3
  * Requires PHP:      	7.3
  * Author:            	Milkan Trninic
@@ -27,7 +27,7 @@ GNU General Public License for more details.
 defined('ABSPATH') or die('Nothing Here!');
 
 if (!class_exists('Frontpage_slider')) {
-    class Frontpage_slider
+    class fpsl_Frontpage_slider
     {
         public $plugin;
         function __construct()
@@ -40,18 +40,18 @@ if (!class_exists('Frontpage_slider')) {
                 'inc/metaboxes/slider_meta_box.php';
                 include_once plugin_dir_path(__FILE__) .
                 'admin/settings-page.php';
-            add_action('init', [$this, 'custom_post_type']);
+            add_action('init', [$this, 'fpsl_custom_post_type']);
             add_filter("plugin_action_links_$this->plugin", [
                 $this,
-                'settings_link',
+                'fpsl_settings_link',
             ]);
-            add_action('wp_enqueue_scripts', [$this, 'frontStyles']);
-            add_action('wp_footer', [$this, 'fp_hook_javascript_footer']);
-            add_action('after_setup_theme', [$this, 'add_slider_image_size']);
-            add_action( 'admin_menu', [$this, 'fsplugin_add_toplevel_menu'] );
+            add_action('wp_enqueue_scripts', [$this, 'fpsl_frontStyles']);
+            add_action('wp_footer', [$this, 'fpsl_fp_hook_javascript_footer']);
+            add_action('after_setup_theme', [$this, 'fpsl_add_slider_image_size']);
+            add_action( 'admin_menu', [$this, 'fpsl_fsplugin_add_toplevel_menu'] );
         }
 //include custom post types for this plugin
-        function custom_post_type()
+        function fpsl_custom_post_type()
         {
             if (
                 current_user_can('editor') ||
@@ -61,7 +61,7 @@ if (!class_exists('Frontpage_slider')) {
             }
         }
 //include css styles
-        function frontStyles()
+        function fpsl_frontStyles()
         {
             wp_enqueue_style(
                 'swiper-css-library',
@@ -73,7 +73,7 @@ if (!class_exists('Frontpage_slider')) {
             );
         }
         //add image sizes for different devices
-        function add_slider_image_size()
+        function fpsl_add_slider_image_size()
         {
             add_image_size('fp_shop_banner', 1903, 569, true);
             add_image_size('fp_main_slider', 1903, 1000, true);
@@ -81,7 +81,7 @@ if (!class_exists('Frontpage_slider')) {
             add_image_size('fp_ipad_slider', 1024, 1000, true);
         }
 //add javascripts
-        function fp_hook_javascript_footer()
+        function fpsl_fp_hook_javascript_footer()
         {
             //swiper.js
             wp_enqueue_script(
@@ -96,11 +96,11 @@ if (!class_exists('Frontpage_slider')) {
         }
 
         // add top-level administrative menu
-function fsplugin_add_toplevel_menu() {
+function fpsl_fsplugin_add_toplevel_menu() {
 	
 
 	
-    add_menu_page('Slider Instructions And Settings', 'FrontPage Sliders', 'manage_options',  'my-top-level-handle', 'settings_menu_function', 'dashicons-media-interactive', 5);
+    add_menu_page('Slider Instructions And Settings', 'FrontPage Sliders', 'manage_options',  'my-top-level-handle', 'fpsl_settings_menu_function', 'dashicons-media-interactive', 5);
     //settings submenu
     add_submenu_page( 'my-top-level-handle', 'Slider Instructions And Settings', 'Settings', 'manage_options','my-top-level-handle');
 	
@@ -109,7 +109,7 @@ function fsplugin_add_toplevel_menu() {
 	
 }
 //Settings shortcut in plugin folder
-        public function settings_link($links)
+        public function fpsl_settings_link($links)
         {
             $settings_link =
                 '<a href="admin.php?page=my-top-level-handle">Slider settings</a>';
@@ -127,7 +127,7 @@ function fsplugin_add_toplevel_menu() {
         }
     }
 }
-$Frontpage_slider = new Frontpage_slider();
+$Frontpage_slider = new fpsl_Frontpage_slider();
 
 register_activation_hook(__FILE__, [$Frontpage_slider, 'activate']);
 register_deactivation_hook(__FILE__, [$Frontpage_slider, 'deactivate']);

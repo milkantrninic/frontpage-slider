@@ -1,7 +1,7 @@
 <?php
-class SliderSection { 
+class fpsl_SliderSection { 
     //this is header slider template
-    public static function frontpageSlider() { ?>
+    public static function fpsl_frontpageSlider() { ?>
 <!-- Slider main container Start -->
 
 <div class="section section-fluid bg-white">
@@ -28,7 +28,7 @@ class SliderSection {
                     <source media="(min-width: 1199px)" srcset="<?php echo the_post_thumbnail_url('fp_main_slider'); ?>">
                     <source media="(min-width: 1024px)" srcset="<?php echo the_post_thumbnail_url('fp_ipad_slider'); ?>">
                     <source media="(min-width: 768px)" srcset="<?php echo the_post_thumbnail_url('fp_ipad_slider'); ?>">
-                    <img src="<?php echo the_post_thumbnail_url('fp_mobile_slider'); ?>" style="width:auto;">
+                    <img src="<?php echo the_post_thumbnail_url('fp_mobile_slider'); ?>" alt="<?php the_title();?>" style="width:auto;">
                 </picture>
                 <div class="central_content">
                     <div class="container">
@@ -79,7 +79,7 @@ class SliderSection {
 //end of frontpage slider
     }
     //this is banner slider template
-       public static function bannerSlider() { ?>
+       public static function fpsl_bannerSlider() { ?>
  <!-- Page Title/Header Start -->
     <div class="home3-slider swiper-container" style="height:100%;">
      <div class="swiper-wrapper">
@@ -103,7 +103,7 @@ class SliderSection {
                 <source media="(min-width: 1199px)" srcset="<?php echo the_post_thumbnail_url('fp_shop_banner'); ?>">
                     <source media="(min-width: 1024px)" srcset="<?php echo the_post_thumbnail_url('fp_ipad_slider'); ?>">
                     <source media="(min-width: 768px)" srcset="<?php echo the_post_thumbnail_url('fp_ipad_slider'); ?>">
-                    <img src="<?php echo the_post_thumbnail_url('fp_mobile_slider'); ?>" style="width:auto;">
+                    <img src="<?php echo the_post_thumbnail_url('fp_mobile_slider'); ?>" alt="<?php the_title();?>" style="width:auto;">
                 </picture>
                     <div class="container">
                         <div class="row">
@@ -132,5 +132,5 @@ class SliderSection {
     }
 //end of class
                             }
-add_shortcode( 'headerSlider', array( 'SliderSection', 'frontpageSlider' ) );
-add_shortcode( 'bannerSliders', array( 'SliderSection', 'bannerSlider' ) );
+add_shortcode( 'headerSlider', array( 'fpsl_SliderSection', 'fpsl_frontpageSlider' ) );
+add_shortcode( 'bannerSliders', array( 'fpsl_SliderSection', 'fpsl_bannerSlider' ) );
