@@ -1,0 +1,1364 @@
+<?php
+function fpsl_productSlider($atts)
+{ 
+          define( '_PS_VERSION', '1.0.0' );
+        //  wp_enqueue_style('top-categories', plugin_dir_url( __FILE__ ) . 'css/top-categories.css', array(), _PS_VERSION, 'all');
+       
+       // wp_enqueue_script( 'wd-owl-library', FPSL_DIR . 'public/js/owl.carousel.min.js', array(), '1.0.0', false );
+        wp_enqueue_script( 'product-slider', plugin_dir_url( __FILE__ ) . 'js/product-slider.js', array(),  _PS_VERSION, true );
+
+        
+    ?>
+    <div class="elementor-container elementor-column-gap-extended">
+	<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-f543298"
+		data-id="f543298" data-element_type="column">
+		<div class="elementor-widget-wrap elementor-element-populated">
+			<div class="elementor-element elementor-element-604aede7 elementor-widget elementor-widget-wd_products"
+				data-id="604aede7" data-element_type="widget" data-widget_type="wd_products.default">
+				<div class="elementor-widget-container">
+					<div id="carousel-981"
+						class="wd-carousel-container  wd-highlighted-products with-title slider-type-product wd-rs- products wd-carousel-spacing-20"
+						data-owl-carousel="" data-speed=""
+						data-slides_per_view_tablet="{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}"
+						data-slides_per_view_mobile="{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}"
+						data-wrap="no" data-hide_pagination_control="yes" data-hide_prev_next_buttons="no"
+						data-desktop="1" data-tablet="1" data-tablet_landscape="1" data-mobile="1">
+						<h4 class="title element-title owl-item">PREPORUCUJEMO</h4>
+						<div
+							class="owl-carousel wd-owl owl-items-lg-1 owl-items-md-1 owl-items-sm-1 owl-items-xs-1 owl-loaded owl-drag">
+
+
+
+
+
+
+							<div class="owl-stage-outer">
+								<div class="owl-stage"
+									style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 2197px;">
+									<div class="owl-item active" style="width: 439.234px;">
+										<div class="slide-product owl-carousel-item">
+
+											<div class="product-grid-item product product-no-swatches wd-hover-base wd-hover-with-fade wd-fade-off type-product post-372 status-publish instock product_cat-furniture has-post-thumbnail shipping-taxable purchasable product-type-simple"
+												data-loop="1" data-id="372">
+
+
+												<div class="product-wrapper">
+													<div class="content-product-imagin"></div>
+													<div class="product-element-top wd-quick-shop">
+														<a href="http://localhost:8888/agroplus.com/proizvod/augue-adipiscing-euismod/"
+															class="product-image-link">
+															<img loading="lazy" width="776" height="800"
+																src="http://localhost:8888/agroalati.com/wp-content/themes/agroalati/assets/img/grijalica-P15-1500W.png"
+																class="attachment-large size-large" alt=""
+																decoding="async"
+																srcset="http://localhost:8888/agroalati.com/wp-content/themes/agroalati/assets/img/grijalica-P15-1500W.png 795w, http://localhost:8888/agroalati.com/wp-content/themes/agroalati/assets/img/grijalica-P15-1500W.png 430w, http://localhost:8888/agroalati.com/wp-content/themes/agroalati/assets/img/grijalica-P15-1500W.png, http://localhost:8888/agroalati.com/wp-content/themes/agroalati/assets/img/grijalica-P15-1500W.png 700w, http://localhost:8888/agroalati.com/wp-content/themes/agroalati/assets/img/grijalica-P15-1500W.png 242w"
+																sizes="(max-width: 776px) 100vw, 776px"> </a>
+
+														<div class="hover-img">
+															<a
+																href="http://localhost:8888/agroplus.com/proizvod/augue-adipiscing-euismod/">
+																<img loading="lazy" width="700" height="800"
+																	src="http://localhost:8888/agroalati.com/wp-content/themes/agroalati/AgroPlus_files/variable-product-example-2.jpg"
+																	class="attachment-large size-large" alt=""
+																	decoding="async"
+																	srcset="http://localhost:8888/agroplus.com/wp-content/uploads/2021/08/variable-product-example-2.jpg 700w, http://localhost:8888/agroplus.com/wp-content/uploads/2021/08/variable-product-example-2-430x491.jpg 430w, http://localhost:8888/agroplus.com/wp-content/uploads/2021/08/variable-product-example-2-150x171.jpg 150w"
+																	sizes="(max-width: 700px) 100vw, 700px"> </a>
+														</div>
+
+														<div class="wrapp-swatches">
+															<div
+																class="wd-compare-btn product-compare-button wd-action-btn wd-style-icon wd-compare-icon">
+																<a href="http://localhost:8888/agroplus.com/compare/"
+																	data-id="372" data-added-text="Compare products">
+																	<span>Uporedi</span>
+																</a>
+															</div>
+														</div>
+
+													</div>
+
+													<div class="product-element-bottom product-information">
+														<h3 class="wd-entities-title"><a
+																href="http://localhost:8888/agroplus.com/proizvod/augue-adipiscing-euismod/">Grijalica
+																P15 1500W</a></h3>
+														<div class="wd-product-cats">
+															<a href="http://localhost:8888/agroplus.com/kategorija-proizvoda/furniture/"
+																rel="tag">Elektricne grijalice</a>
+														</div>
+														<div class="product-rating-price">
+															<div class="wrapp-product-price">
+
+																<span class="price"><span
+																		class="woocommerce-Price-amount amount"><bdi>199,00&nbsp;<span
+																				class="woocommerce-Price-currencySymbol">KM</span></bdi></span></span>
+															</div>
+														</div>
+														<div class="fade-in-block wd-scroll">
+															<div class="hover-content wd-more-desc">
+																<div class="hover-content-inner wd-more-desc-inner">
+																	Scelerisque facilisi rhoncus non faucibus parturient
+																	senectus lobortis a ullamcorper vestibulum mi nibh
+																	ultricies a parturient gravida a vestibulum leo sem
+																	in. Est cum torquent mi in scelerisque leo aptent
+																	per at vitae ante eleifend mollis adipiscing. </div>
+																<a href="http://localhost:8888/agroplus.com/#"
+																	class="wd-more-desc-btn"
+																	aria-label="Read more description"><span></span></a>
+															</div>
+															<div class=" wd-buttons wd-pos-r-t">
+																<div class="wrap-wishlist-button">
+																	<div
+																		class="wd-wishlist-btn wd-action-btn wd-style-icon wd-wishlist-icon">
+																		<a class=""
+																			href="http://localhost:8888/agroplus.com/wishlist/"
+																			data-key="6b4973a5cc" data-product-id="372"
+																			data-added-text="Browse Wishlist">
+																			<span>Add to wishlist</span>
+																		</a>
+																	</div>
+																</div>
+																<div
+																	class="wd-add-btn wd-action-btn wd-style-icon wd-add-cart-icon">
+																	<a href="http://localhost:8888/agroplus.com/?add-to-cart=372"
+																		data-quantity="1"
+																		class="button product_type_simple add_to_cart_button ajax_add_to_cart add-to-cart-loop"
+																		data-product_id="372" data-product_sku="MNK-001"
+																		aria-label="Dodaj “Augue adipiscing euismod” u Vašu korpu."
+																		aria-describedby=""><span>Dodaj u
+																			korpu</span></a>
+																</div>
+																<div class="wrap-quickview-button">
+																	<div
+																		class="quick-view wd-action-btn wd-style-icon wd-quick-view-icon">
+																		<a href="http://localhost:8888/agroplus.com/proizvod/augue-adipiscing-euismod/"
+																			class="open-quick-view quick-view-button"
+																			data-id="372">Quick view</a>
+																	</div>
+																</div>
+															</div>
+
+
+
+														</div>
+													</div>
+												</div>
+											</div>
+
+										</div>
+									</div>
+									<div class="owl-item" style="width: 439.234px;">
+										<div class="slide-product owl-carousel-item">
+
+											<div class="product-grid-item product product-no-swatches wd-hover-base wd-hover-with-fade wd-fade-off type-product post-270 status-publish instock product_cat-furniture has-post-thumbnail shipping-taxable purchasable product-type-simple"
+												data-loop="2" data-id="270">
+
+
+												<div class="product-wrapper">
+													<div class="content-product-imagin"></div>
+													<div class="product-element-top wd-quick-shop">
+														<a href="http://localhost:8888/agroplus.com/proizvod/classic-wooden-chair/"
+															class="product-image-link">
+															<img loading="lazy" width="776" height="800"
+																src="http://localhost:8888/agroalati.com/wp-content/themes/agroalati/AgroPlus_files/retail-product-3.jpg"
+																class="attachment-large size-large" alt=""
+																decoding="async"
+																srcset="http://localhost:8888/agroplus.com/wp-content/uploads/2021/10/retail-product-3.jpg 795w, http://localhost:8888/agroplus.com/wp-content/uploads/2021/10/retail-product-3-430x444.jpg 430w, http://localhost:8888/agroplus.com/wp-content/uploads/2021/10/retail-product-3-150x155.jpg 150w, http://localhost:8888/agroplus.com/wp-content/uploads/2021/10/retail-product-3-700x722.jpg 700w, http://localhost:8888/agroplus.com/wp-content/uploads/2021/10/retail-product-3-242x250.jpg 242w"
+																sizes="(max-width: 776px) 100vw, 776px"> </a>
+
+														<div class="hover-img">
+															<a
+																href="http://localhost:8888/agroplus.com/proizvod/classic-wooden-chair/">
+																<img loading="lazy" width="700" height="800"
+																	src="http://localhost:8888/agroalati.com/wp-content/themes/agroalati/AgroPlus_files/classic-wooden-chair-2.jpg"
+																	class="attachment-large size-large" alt=""
+																	decoding="async"
+																	srcset="http://localhost:8888/agroplus.com/wp-content/uploads/2021/08/classic-wooden-chair-2.jpg 1050w, http://localhost:8888/agroplus.com/wp-content/uploads/2021/08/classic-wooden-chair-2-430x491.jpg 430w, http://localhost:8888/agroplus.com/wp-content/uploads/2021/08/classic-wooden-chair-2-150x171.jpg 150w, http://localhost:8888/agroplus.com/wp-content/uploads/2021/08/classic-wooden-chair-2-700x800.jpg 700w"
+																	sizes="(max-width: 700px) 100vw, 700px"> </a>
+														</div>
+
+														<div class="wrapp-swatches">
+															<div
+																class="wd-compare-btn product-compare-button wd-action-btn wd-style-icon wd-compare-icon">
+																<a href="http://localhost:8888/agroplus.com/compare/"
+																	data-id="270" data-added-text="Compare products">
+																	<span>Compare</span>
+																</a>
+															</div>
+														</div>
+
+													</div>
+
+													<div class="product-element-bottom product-information">
+														<h3 class="wd-entities-title"><a
+																href="http://localhost:8888/agroplus.com/proizvod/classic-wooden-chair/">Classic
+																wooden chair</a></h3>
+														<div class="wd-product-cats">
+															<a href="http://localhost:8888/agroplus.com/kategorija-proizvoda/furniture/"
+																rel="tag">Furniture</a>
+														</div>
+														<div class="product-rating-price">
+															<div class="wrapp-product-price">
+
+																<span class="price"><span
+																		class="woocommerce-Price-amount amount"><bdi>299,00&nbsp;<span
+																				class="woocommerce-Price-currencySymbol">KM</span></bdi></span></span>
+															</div>
+														</div>
+														<div class="fade-in-block wd-scroll">
+															<div class="hover-content wd-more-desc">
+																<div class="hover-content-inner wd-more-desc-inner">
+																	Scelerisque facilisi rhoncus non faucibus parturient
+																	senectus lobortis a ullamcorper vestibulum mi nibh
+																	ultricies a parturient gravida a vestibulum leo sem
+																	in. Est cum torquent mi in scelerisque leo aptent
+																	per at vitae ante eleifend mollis adipiscing. </div>
+																<a href="http://localhost:8888/agroplus.com/#"
+																	class="wd-more-desc-btn"
+																	aria-label="Read more description"><span></span></a>
+															</div>
+															<div class=" wd-buttons wd-pos-r-t">
+																<div class="wrap-wishlist-button">
+																	<div
+																		class="wd-wishlist-btn wd-action-btn wd-style-icon wd-wishlist-icon">
+																		<a class=""
+																			href="http://localhost:8888/agroplus.com/wishlist/"
+																			data-key="6b4973a5cc" data-product-id="270"
+																			data-added-text="Browse Wishlist">
+																			<span>Add to wishlist</span>
+																		</a>
+																	</div>
+																</div>
+																<div
+																	class="wd-add-btn wd-action-btn wd-style-icon wd-add-cart-icon">
+																	<a href="http://localhost:8888/agroplus.com/?add-to-cart=270"
+																		data-quantity="1"
+																		class="button product_type_simple add_to_cart_button ajax_add_to_cart add-to-cart-loop"
+																		data-product_id="270" data-product_sku=""
+																		aria-label="Dodaj “Classic wooden chair” u Vašu korpu."
+																		aria-describedby=""><span>Dodaj u
+																			korpu</span></a>
+																</div>
+																<div class="wrap-quickview-button">
+																	<div
+																		class="quick-view wd-action-btn wd-style-icon wd-quick-view-icon">
+																		<a href="http://localhost:8888/agroplus.com/proizvod/classic-wooden-chair/"
+																			class="open-quick-view quick-view-button"
+																			data-id="270">Quick view</a>
+																	</div>
+																</div>
+															</div>
+
+
+
+														</div>
+													</div>
+												</div>
+											</div>
+
+										</div>
+									</div>
+									<div class="owl-item" style="width: 439.234px;">
+										<div class="slide-product owl-carousel-item">
+
+											<div class="product-grid-item product has-stars product-no-swatches wd-hover-base wd-hover-with-fade wd-fade-off type-product post-334 status-publish last instock product_cat-cooking has-post-thumbnail shipping-taxable purchasable product-type-simple"
+												data-loop="3" data-id="334">
+
+
+												<div class="product-wrapper">
+													<div class="content-product-imagin"></div>
+													<div class="product-element-top wd-quick-shop">
+														<a href="http://localhost:8888/agroplus.com/proizvod/decoration-wooden-present/"
+															class="product-image-link">
+															<img loading="lazy" width="776" height="800"
+																src="http://localhost:8888/agroalati.com/wp-content/themes/agroalati/AgroPlus_files/retail-product-1.jpg"
+																class="attachment-large size-large" alt=""
+																decoding="async"
+																srcset="http://localhost:8888/agroplus.com/wp-content/uploads/2021/10/retail-product-1.jpg 795w, http://localhost:8888/agroplus.com/wp-content/uploads/2021/10/retail-product-1-430x444.jpg 430w, http://localhost:8888/agroplus.com/wp-content/uploads/2021/10/retail-product-1-150x155.jpg 150w, http://localhost:8888/agroplus.com/wp-content/uploads/2021/10/retail-product-1-700x722.jpg 700w"
+																sizes="(max-width: 776px) 100vw, 776px"> </a>
+
+														<div class="hover-img">
+															<a
+																href="http://localhost:8888/agroplus.com/proizvod/decoration-wooden-present/">
+																<img loading="lazy" width="700" height="800"
+																	src="http://localhost:8888/agroalati.com/wp-content/themes/agroalati/AgroPlus_files/decoration-wooden-presen-2.jpg"
+																	class="attachment-large size-large" alt=""
+																	decoding="async"
+																	srcset="http://localhost:8888/agroplus.com/wp-content/uploads/2021/08/decoration-wooden-presen-2.jpg 700w, http://localhost:8888/agroplus.com/wp-content/uploads/2021/08/decoration-wooden-presen-2-430x491.jpg 430w, http://localhost:8888/agroplus.com/wp-content/uploads/2021/08/decoration-wooden-presen-2-150x171.jpg 150w"
+																	sizes="(max-width: 700px) 100vw, 700px"> </a>
+														</div>
+
+														<div class="wrapp-swatches">
+															<div
+																class="wd-compare-btn product-compare-button wd-action-btn wd-style-icon wd-compare-icon">
+																<a href="http://localhost:8888/agroplus.com/compare/"
+																	data-id="334" data-added-text="Compare products">
+																	<span>Compare</span>
+																</a>
+															</div>
+														</div>
+
+													</div>
+
+													<div class="product-element-bottom product-information">
+														<h3 class="wd-entities-title"><a
+																href="http://localhost:8888/agroplus.com/proizvod/decoration-wooden-present/">Decoration
+																wooden present</a></h3>
+														<div class="wd-product-cats">
+															<a href="http://localhost:8888/agroplus.com/kategorija-proizvoda/cooking/"
+																rel="tag">Cooking</a>
+														</div>
+														<div class="product-rating-price">
+															<div class="wrapp-product-price">
+
+																<span class="price"><span
+																		class="woocommerce-Price-amount amount"><bdi>89,00&nbsp;<span
+																				class="woocommerce-Price-currencySymbol">KM</span></bdi></span></span>
+
+																<div class="star-rating" role="img"
+																	aria-label="Ocjenjeno 5.00 od 5">
+																	<span style="width:100%">
+																		Ocjenjeno <strong class="rating">5.00</strong>
+																		od 5 </span>
+																</div>
+
+
+															</div>
+														</div>
+														<div class="fade-in-block wd-scroll">
+															<div class="hover-content wd-more-desc">
+																<div class="hover-content-inner wd-more-desc-inner">
+																	Nam gravida vulputate est venenatis eu at
+																	ullamcorper consectetur parturient suspendisse a
+																	elit lobortis ut convallis vestibulum vulputate nunc
+																	praesent mattis sem faucibus risus sociosqu.Dapibus
+																	curae a ac vestibulum a magnis ullamcorper orci a
+																	iaculis adipiscing augue a massa a torquent feugiat
+																	a. Scelerisque vestibulum. </div>
+																<a href="http://localhost:8888/agroplus.com/#"
+																	class="wd-more-desc-btn"
+																	aria-label="Read more description"><span></span></a>
+															</div>
+															<div class=" wd-buttons wd-pos-r-t">
+																<div class="wrap-wishlist-button">
+																	<div
+																		class="wd-wishlist-btn wd-action-btn wd-style-icon wd-wishlist-icon">
+																		<a class=""
+																			href="http://localhost:8888/agroplus.com/wishlist/"
+																			data-key="6b4973a5cc" data-product-id="334"
+																			data-added-text="Browse Wishlist">
+																			<span>Add to wishlist</span>
+																		</a>
+																	</div>
+																</div>
+																<div
+																	class="wd-add-btn wd-action-btn wd-style-icon wd-add-cart-icon">
+																	<a href="http://localhost:8888/agroplus.com/?add-to-cart=334"
+																		data-quantity="1"
+																		class="button product_type_simple add_to_cart_button ajax_add_to_cart add-to-cart-loop"
+																		data-product_id="334" data-product_sku=""
+																		aria-label="Dodaj “Decoration wooden present” u Vašu korpu."
+																		aria-describedby=""><span>Dodaj u
+																			korpu</span></a>
+																</div>
+																<div class="wrap-quickview-button">
+																	<div
+																		class="quick-view wd-action-btn wd-style-icon wd-quick-view-icon">
+																		<a href="http://localhost:8888/agroplus.com/proizvod/decoration-wooden-present/"
+																			class="open-quick-view quick-view-button"
+																			data-id="334">Quick view</a>
+																	</div>
+																</div>
+															</div>
+
+
+
+														</div>
+													</div>
+												</div>
+											</div>
+
+										</div>
+									</div>
+									<div class="owl-item" style="width: 439.234px;">
+										<div class="slide-product owl-carousel-item">
+
+											<div class="product-grid-item product product-no-swatches wd-hover-base wd-hover-with-fade wd-fade-off type-product post-232 status-publish first instock product_cat-furniture has-post-thumbnail shipping-taxable purchasable product-type-simple"
+												data-loop="4" data-id="232">
+
+
+												<div class="product-wrapper">
+													<div class="content-product-imagin"></div>
+													<div class="product-element-top wd-quick-shop">
+														<a href="http://localhost:8888/agroplus.com/proizvod/eames-lounge-chair/"
+															class="product-image-link">
+															<img loading="lazy" width="776" height="800"
+																src="http://localhost:8888/agroalati.com/wp-content/themes/agroalati/AgroPlus_files/retail-product-2.jpg"
+																class="attachment-large size-large" alt=""
+																decoding="async"
+																srcset="http://localhost:8888/agroplus.com/wp-content/uploads/2021/10/retail-product-2.jpg 795w, http://localhost:8888/agroplus.com/wp-content/uploads/2021/10/retail-product-2-430x444.jpg 430w, http://localhost:8888/agroplus.com/wp-content/uploads/2021/10/retail-product-2-150x155.jpg 150w, http://localhost:8888/agroplus.com/wp-content/uploads/2021/10/retail-product-2-700x722.jpg 700w"
+																sizes="(max-width: 776px) 100vw, 776px"> </a>
+
+														<div class="hover-img">
+															<a
+																href="http://localhost:8888/agroplus.com/proizvod/eames-lounge-chair/">
+																<img loading="lazy" width="700" height="800"
+																	src="http://localhost:8888/agroalati.com/wp-content/themes/agroalati/AgroPlus_files/eames-lounge-chair-2.jpg"
+																	class="attachment-large size-large" alt=""
+																	decoding="async"
+																	srcset="http://localhost:8888/agroplus.com/wp-content/uploads/2021/08/eames-lounge-chair-2.jpg 700w, http://localhost:8888/agroplus.com/wp-content/uploads/2021/08/eames-lounge-chair-2-430x491.jpg 430w, http://localhost:8888/agroplus.com/wp-content/uploads/2021/08/eames-lounge-chair-2-150x171.jpg 150w"
+																	sizes="(max-width: 700px) 100vw, 700px"> </a>
+														</div>
+
+														<div class="wrapp-swatches">
+															<div
+																class="wd-compare-btn product-compare-button wd-action-btn wd-style-icon wd-compare-icon">
+																<a href="http://localhost:8888/agroplus.com/compare/"
+																	data-id="232" data-added-text="Compare products">
+																	<span>Compare</span>
+																</a>
+															</div>
+														</div>
+
+													</div>
+
+													<div class="product-element-bottom product-information">
+														<h3 class="wd-entities-title"><a
+																href="http://localhost:8888/agroplus.com/proizvod/eames-lounge-chair/">Eames
+																lounge chair</a></h3>
+														<div class="wd-product-cats">
+															<a href="http://localhost:8888/agroplus.com/kategorija-proizvoda/furniture/"
+																rel="tag">Furniture</a>
+														</div>
+														<div class="product-rating-price">
+															<div class="wrapp-product-price">
+
+																<span class="price"><span
+																		class="woocommerce-Price-amount amount"><bdi>399,00&nbsp;<span
+																				class="woocommerce-Price-currencySymbol">KM</span></bdi></span></span>
+															</div>
+														</div>
+														<div class="fade-in-block wd-scroll">
+															<div class="hover-content wd-more-desc">
+																<div class="hover-content-inner wd-more-desc-inner">
+																	Scelerisque facilisi rhoncus non faucibus parturient
+																	senectus lobortis a ullamcorper vestibulum mi nibh
+																	ultricies a parturient gravida a vestibulum leo sem
+																	in. Est cum torquent mi in scelerisque leo aptent
+																	per at vitae ante eleifend mollis adipiscing. </div>
+																<a href="http://localhost:8888/agroplus.com/#"
+																	class="wd-more-desc-btn"
+																	aria-label="Read more description"><span></span></a>
+															</div>
+															<div class=" wd-buttons wd-pos-r-t">
+																<div class="wrap-wishlist-button">
+																	<div
+																		class="wd-wishlist-btn wd-action-btn wd-style-icon wd-wishlist-icon">
+																		<a class=""
+																			href="http://localhost:8888/agroplus.com/wishlist/"
+																			data-key="6b4973a5cc" data-product-id="232"
+																			data-added-text="Browse Wishlist">
+																			<span>Add to wishlist</span>
+																		</a>
+																	</div>
+																</div>
+																<div
+																	class="wd-add-btn wd-action-btn wd-style-icon wd-add-cart-icon">
+																	<a href="http://localhost:8888/agroplus.com/?add-to-cart=232"
+																		data-quantity="1"
+																		class="button product_type_simple add_to_cart_button ajax_add_to_cart add-to-cart-loop"
+																		data-product_id="232" data-product_sku=""
+																		aria-label="Dodaj “Eames lounge chair” u Vašu korpu."
+																		aria-describedby=""><span>Dodaj u
+																			korpu</span></a>
+																</div>
+																<div class="wrap-quickview-button">
+																	<div
+																		class="quick-view wd-action-btn wd-style-icon wd-quick-view-icon">
+																		<a href="http://localhost:8888/agroplus.com/proizvod/eames-lounge-chair/"
+																			class="open-quick-view quick-view-button"
+																			data-id="232">Quick view</a>
+																	</div>
+																</div>
+															</div>
+
+
+
+														</div>
+													</div>
+												</div>
+											</div>
+
+										</div>
+									</div>
+									<div class="owl-item" style="width: 439.234px;">
+										<div class="slide-product owl-carousel-item">
+
+											<div class="product-grid-item product product-no-swatches wd-hover-base wd-hover-with-fade wd-fade-off type-product post-381 status-publish instock product_cat-furniture has-post-thumbnail shipping-taxable purchasable product-type-variable"
+												data-loop="5" data-id="381">
+
+
+												<div class="product-wrapper">
+													<div class="content-product-imagin"></div>
+													<div class="product-element-top wd-quick-shop">
+														<a href="http://localhost:8888/agroplus.com/proizvod/eames-plastic-side-chair/"
+															class="product-image-link">
+															<div class="product-labels labels-rectangular"><span
+																	class="new product-label">New</span></div><img
+																loading="lazy" width="776" height="800"
+																src="http://localhost:8888/agroalati.com/wp-content/themes/agroalati/AgroPlus_files/retail-product-9.jpg"
+																class="attachment-large size-large" alt=""
+																decoding="async"
+																srcset="http://localhost:8888/agroplus.com/wp-content/uploads/2021/10/retail-product-9.jpg 795w, http://localhost:8888/agroplus.com/wp-content/uploads/2021/10/retail-product-9-430x444.jpg 430w, http://localhost:8888/agroplus.com/wp-content/uploads/2021/10/retail-product-9-150x155.jpg 150w, http://localhost:8888/agroplus.com/wp-content/uploads/2021/10/retail-product-9-700x722.jpg 700w"
+																sizes="(max-width: 776px) 100vw, 776px">
+														</a>
+
+														<div class="hover-img">
+															<a
+																href="http://localhost:8888/agroplus.com/proizvod/eames-plastic-side-chair/">
+																<img loading="lazy" width="700" height="800"
+																	src="http://localhost:8888/agroalati.com/wp-content/themes/agroalati/AgroPlus_files/eames-plastic-side-chair-2.jpg"
+																	class="attachment-large size-large" alt=""
+																	decoding="async"
+																	srcset="http://localhost:8888/agroplus.com/wp-content/uploads/2021/08/eames-plastic-side-chair-2.jpg 700w, http://localhost:8888/agroplus.com/wp-content/uploads/2021/08/eames-plastic-side-chair-2-430x491.jpg 430w, http://localhost:8888/agroplus.com/wp-content/uploads/2021/08/eames-plastic-side-chair-2-150x171.jpg 150w"
+																	sizes="(max-width: 700px) 100vw, 700px"> </a>
+														</div>
+
+														<div class="wrapp-swatches">
+															<div
+																class="wd-compare-btn product-compare-button wd-action-btn wd-style-icon wd-compare-icon">
+																<a href="http://localhost:8888/agroplus.com/compare/"
+																	data-id="381" data-added-text="Compare products">
+																	<span>Compare</span>
+																</a>
+															</div>
+														</div>
+
+													</div>
+
+													<div class="product-element-bottom product-information">
+														<h3 class="wd-entities-title"><a
+																href="http://localhost:8888/agroplus.com/proizvod/eames-plastic-side-chair/">Eames
+																plastic side chair</a></h3>
+														<div class="wd-product-cats">
+															<a href="http://localhost:8888/agroplus.com/kategorija-proizvoda/furniture/"
+																rel="tag">Furniture</a>
+														</div>
+														<div class="product-rating-price">
+															<div class="wrapp-product-price">
+
+																<span class="price"><span
+																		class="woocommerce-Price-amount amount"><bdi>99,00&nbsp;<span
+																				class="woocommerce-Price-currencySymbol">KM</span></bdi></span></span>
+															</div>
+														</div>
+														<div class="fade-in-block wd-scroll">
+															<div class="hover-content wd-more-desc">
+																<div class="hover-content-inner wd-more-desc-inner">
+																	Consequat a scelerisque suspendisse vel et eget eu
+																	vitae adipiscing nibh scelerisque semper cum
+																	adipiscing facilisis adipiscing est accumsan lorem
+																	vestibulum. Aliquet mus a aptent ullam corper metus
+																	accumsan. Habitasse a purus nec ipsum a urna ac
+																	ullamcorper varius metus blandit posuere. </div>
+																<a href="http://localhost:8888/agroplus.com/#"
+																	class="wd-more-desc-btn"
+																	aria-label="Read more description"><span></span></a>
+															</div>
+															<div class=" wd-buttons wd-pos-r-t">
+																<div class="wrap-wishlist-button">
+																	<div
+																		class="wd-wishlist-btn wd-action-btn wd-style-icon wd-wishlist-icon">
+																		<a class=""
+																			href="http://localhost:8888/agroplus.com/wishlist/"
+																			data-key="6b4973a5cc" data-product-id="381"
+																			data-added-text="Browse Wishlist">
+																			<span>Add to wishlist</span>
+																		</a>
+																	</div>
+																</div>
+																<div
+																	class="wd-add-btn wd-action-btn wd-style-icon wd-add-cart-icon">
+																	<a href="http://localhost:8888/agroplus.com/proizvod/eames-plastic-side-chair/"
+																		data-quantity="1"
+																		class="button product_type_variable add_to_cart_button add-to-cart-loop"
+																		data-product_id="381" data-product_sku=""
+																		aria-label="Odaberi opcije za “Eames plastic side chair”"
+																		aria-describedby="This product has multiple variants. The options may be chosen on the product page"><span>Odaberi
+																			opcije</span></a>
+																</div>
+																<div class="wrap-quickview-button">
+																	<div
+																		class="quick-view wd-action-btn wd-style-icon wd-quick-view-icon">
+																		<a href="http://localhost:8888/agroplus.com/proizvod/eames-plastic-side-chair/"
+																			class="open-quick-view quick-view-button"
+																			data-id="381">Quick view</a>
+																	</div>
+																</div>
+															</div>
+
+
+
+														</div>
+													</div>
+												</div>
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="owl-nav">
+								<div class="owl-prev wd-btn-arrow"></div>
+								<div class="owl-next wd-btn-arrow"></div>
+							</div>
+							<div class="owl-dots disabled"></div>
+						</div> <!-- end product-items -->
+					</div> <!-- end #carousel-981 -->
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-285a9abb"
+		data-id="285a9abb" data-element_type="column">
+		<div class="elementor-widget-wrap elementor-element-populated">
+			<div class="elementor-element elementor-element-3edd2abb elementor-widget elementor-widget-wd_products_tabs"
+				data-id="3edd2abb" data-element_type="widget" data-widget_type="wd_products_tabs.default">
+				<div class="elementor-widget-container">
+					<div class="wd-tabs wd-products-tabs tabs-design-simple wd-inited">
+						<div class="wd-tabs-header text-center">
+							<div class="wd-tabs-loader"><span class="wd-loader"></span></div>
+
+							<div class="tabs-name title">
+
+								<span class="tabs-text" data-elementor-setting-key="title">ELEKTRICNE GRIJALICE</span>
+							</div>
+
+
+							<div class="wd-nav-wrapper wd-nav-tabs-wrapper tabs-navigation-wrapper">
+
+								<ul class="wd-nav wd-nav-tabs products-tabs-title wd-style-default wd-icon-pos-left">
+
+									<li data-atts="{&quot;layout&quot;:&quot;grid&quot;,&quot;pagination&quot;:&quot;arrows&quot;,&quot;items_per_page&quot;:&quot;6&quot;,&quot;spacing&quot;:&quot;20&quot;,&quot;columns&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;3&quot;,&quot;sizes&quot;:[]},&quot;products_masonry&quot;:&quot;&quot;,&quot;products_different_sizes&quot;:&quot;&quot;,&quot;product_quantity&quot;:&quot;&quot;,&quot;product_hover&quot;:&quot;inherit&quot;,&quot;sale_countdown&quot;:&quot;0&quot;,&quot;stretch_product_tablet&quot;:0,&quot;stretch_product_mobile&quot;:0,&quot;stock_progress_bar&quot;:&quot;0&quot;,&quot;highlighted_products&quot;:0,&quot;products_bordered_grid&quot;:&quot;0&quot;,&quot;products_bordered_grid_style&quot;:null,&quot;products_with_background&quot;:&quot;0&quot;,&quot;products_shadow&quot;:&quot;0&quot;,&quot;products_color_scheme&quot;:&quot;default&quot;,&quot;img_size&quot;:&quot;large&quot;,&quot;elementor&quot;:true,&quot;slides_per_view&quot;:null,&quot;scroll_per_page&quot;:null,&quot;hide_pagination_control&quot;:null,&quot;hide_prev_next_buttons&quot;:null,&quot;center_mode&quot;:null,&quot;wrap&quot;:null,&quot;autoplay&quot;:null,&quot;speed&quot;:null,&quot;img_size_custom&quot;:null,&quot;stretch_product&quot;:null,&quot;grid_gallery&quot;:&quot;&quot;,&quot;grid_gallery_control&quot;:null,&quot;grid_gallery_enable_arrows&quot;:null,&quot;lazy_loading&quot;:&quot;no&quot;,&quot;orderby&quot;:&quot;date&quot;,&quot;post_type&quot;:&quot;product&quot;,&quot;ajax_recently_viewed&quot;:null,&quot;include&quot;:null,&quot;taxonomies&quot;:&quot;&quot;,&quot;offset&quot;:&quot;&quot;,&quot;query_type&quot;:&quot;OR&quot;,&quot;order&quot;:&quot;&quot;,&quot;hide_out_of_stock&quot;:&quot;no&quot;,&quot;meta_key&quot;:null,&quot;exclude&quot;:&quot;&quot;}"
+										class=" wd-active">
+										<a href="http://localhost:8888/agroplus.com/#" class="wd-nav-link">
+
+											<span class="tab-label nav-link-text">
+												NOVO </span>
+										</a>
+									</li>
+
+									<li data-atts="{&quot;layout&quot;:&quot;grid&quot;,&quot;pagination&quot;:&quot;arrows&quot;,&quot;items_per_page&quot;:&quot;6&quot;,&quot;spacing&quot;:&quot;20&quot;,&quot;columns&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;3&quot;,&quot;sizes&quot;:[]},&quot;products_masonry&quot;:&quot;&quot;,&quot;products_different_sizes&quot;:&quot;&quot;,&quot;product_quantity&quot;:&quot;&quot;,&quot;product_hover&quot;:&quot;inherit&quot;,&quot;sale_countdown&quot;:&quot;0&quot;,&quot;stretch_product_tablet&quot;:0,&quot;stretch_product_mobile&quot;:0,&quot;stock_progress_bar&quot;:&quot;0&quot;,&quot;highlighted_products&quot;:0,&quot;products_bordered_grid&quot;:&quot;0&quot;,&quot;products_bordered_grid_style&quot;:null,&quot;products_with_background&quot;:&quot;0&quot;,&quot;products_shadow&quot;:&quot;0&quot;,&quot;products_color_scheme&quot;:&quot;default&quot;,&quot;img_size&quot;:&quot;large&quot;,&quot;elementor&quot;:true,&quot;slides_per_view&quot;:null,&quot;scroll_per_page&quot;:null,&quot;hide_pagination_control&quot;:null,&quot;hide_prev_next_buttons&quot;:null,&quot;center_mode&quot;:null,&quot;wrap&quot;:null,&quot;autoplay&quot;:null,&quot;speed&quot;:null,&quot;img_size_custom&quot;:null,&quot;stretch_product&quot;:null,&quot;grid_gallery&quot;:&quot;&quot;,&quot;grid_gallery_control&quot;:null,&quot;grid_gallery_enable_arrows&quot;:null,&quot;lazy_loading&quot;:&quot;no&quot;,&quot;orderby&quot;:&quot;rand&quot;,&quot;post_type&quot;:&quot;product&quot;,&quot;ajax_recently_viewed&quot;:null,&quot;include&quot;:null,&quot;taxonomies&quot;:&quot;&quot;,&quot;offset&quot;:&quot;&quot;,&quot;query_type&quot;:&quot;OR&quot;,&quot;order&quot;:&quot;&quot;,&quot;hide_out_of_stock&quot;:&quot;no&quot;,&quot;meta_key&quot;:null,&quot;exclude&quot;:&quot;&quot;}"
+										class="">
+										<a href="http://localhost:8888/agroplus.com/#" class="wd-nav-link">
+
+											<span class="tab-label nav-link-text">
+												ISTAKNUTO </span>
+										</a>
+									</li>
+
+									<li data-atts="{&quot;layout&quot;:&quot;grid&quot;,&quot;pagination&quot;:&quot;arrows&quot;,&quot;items_per_page&quot;:&quot;6&quot;,&quot;spacing&quot;:&quot;20&quot;,&quot;columns&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;3&quot;,&quot;sizes&quot;:[]},&quot;products_masonry&quot;:&quot;&quot;,&quot;products_different_sizes&quot;:&quot;&quot;,&quot;product_quantity&quot;:&quot;&quot;,&quot;product_hover&quot;:&quot;inherit&quot;,&quot;sale_countdown&quot;:&quot;0&quot;,&quot;stretch_product_tablet&quot;:0,&quot;stretch_product_mobile&quot;:0,&quot;stock_progress_bar&quot;:&quot;0&quot;,&quot;highlighted_products&quot;:0,&quot;products_bordered_grid&quot;:&quot;0&quot;,&quot;products_bordered_grid_style&quot;:null,&quot;products_with_background&quot;:&quot;0&quot;,&quot;products_shadow&quot;:&quot;0&quot;,&quot;products_color_scheme&quot;:&quot;default&quot;,&quot;img_size&quot;:&quot;large&quot;,&quot;elementor&quot;:true,&quot;slides_per_view&quot;:null,&quot;scroll_per_page&quot;:null,&quot;hide_pagination_control&quot;:null,&quot;hide_prev_next_buttons&quot;:null,&quot;center_mode&quot;:null,&quot;wrap&quot;:null,&quot;autoplay&quot;:null,&quot;speed&quot;:null,&quot;img_size_custom&quot;:null,&quot;stretch_product&quot;:null,&quot;grid_gallery&quot;:&quot;&quot;,&quot;grid_gallery_control&quot;:null,&quot;grid_gallery_enable_arrows&quot;:null,&quot;lazy_loading&quot;:&quot;no&quot;,&quot;orderby&quot;:&quot;price&quot;,&quot;query_type&quot;:&quot;AND&quot;,&quot;post_type&quot;:&quot;product&quot;,&quot;ajax_recently_viewed&quot;:null,&quot;include&quot;:null,&quot;taxonomies&quot;:&quot;&quot;,&quot;offset&quot;:&quot;&quot;,&quot;order&quot;:&quot;&quot;,&quot;hide_out_of_stock&quot;:&quot;no&quot;,&quot;meta_key&quot;:null,&quot;exclude&quot;:&quot;&quot;}"
+										class="">
+										<a href="http://localhost:8888/agroplus.com/#" class="wd-nav-link">
+
+											<span class="tab-label nav-link-text">
+												NAJPRODAVANIJE </span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="wd-tab-content-wrapper">
+
+							<div class="wd-products-element">
+
+								<div class="wd-products-loader hidden-loader"><span class="wd-loader"></span></div>
+
+
+
+								<div class="products elements-grid row wd-products-holder pagination-arrows wd-spacing-20 grid-columns-3 align-items-start"
+									data-paged="1"
+									data-atts="{&quot;element_title&quot;:&quot;&quot;,&quot;title_alignment&quot;:&quot;left&quot;,&quot;query_post_type&quot;:&quot;product&quot;,&quot;post_type&quot;:&quot;product&quot;,&quot;include&quot;:null,&quot;taxonomies&quot;:&quot;&quot;,&quot;offset&quot;:&quot;&quot;,&quot;orderby&quot;:&quot;date&quot;,&quot;query_type&quot;:&quot;OR&quot;,&quot;order&quot;:&quot;&quot;,&quot;meta_key&quot;:null,&quot;exclude&quot;:&quot;&quot;,&quot;shop_tools&quot;:&quot;0&quot;,&quot;hide_out_of_stock&quot;:&quot;no&quot;,&quot;ajax_recently_viewed&quot;:null,&quot;speed&quot;:null,&quot;slides_per_view&quot;:null,&quot;slides_per_view_tablet&quot;:{&quot;size&quot;:&quot;&quot;},&quot;slides_per_view_mobile&quot;:{&quot;size&quot;:&quot;&quot;},&quot;wrap&quot;:null,&quot;autoplay&quot;:null,&quot;center_mode&quot;:null,&quot;hide_pagination_control&quot;:null,&quot;hide_prev_next_buttons&quot;:null,&quot;scroll_per_page&quot;:null,&quot;layout&quot;:&quot;grid&quot;,&quot;pagination&quot;:&quot;arrows&quot;,&quot;items_per_page&quot;:&quot;6&quot;,&quot;spacing&quot;:&quot;20&quot;,&quot;columns&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;3&quot;,&quot;sizes&quot;:[]},&quot;columns_tablet&quot;:{&quot;size&quot;:&quot;&quot;},&quot;columns_mobile&quot;:{&quot;size&quot;:&quot;&quot;},&quot;products_masonry&quot;:&quot;&quot;,&quot;products_different_sizes&quot;:&quot;&quot;,&quot;product_quantity&quot;:&quot;&quot;,&quot;product_hover&quot;:&quot;inherit&quot;,&quot;sale_countdown&quot;:&quot;0&quot;,&quot;stretch_product&quot;:null,&quot;stretch_product_tablet&quot;:0,&quot;stretch_product_mobile&quot;:0,&quot;stock_progress_bar&quot;:&quot;0&quot;,&quot;highlighted_products&quot;:0,&quot;products_bordered_grid&quot;:&quot;0&quot;,&quot;products_bordered_grid_style&quot;:null,&quot;products_with_background&quot;:&quot;0&quot;,&quot;products_shadow&quot;:&quot;0&quot;,&quot;products_color_scheme&quot;:&quot;default&quot;,&quot;img_size&quot;:&quot;large&quot;,&quot;img_size_custom&quot;:null,&quot;grid_gallery&quot;:&quot;&quot;,&quot;grid_gallery_control&quot;:null,&quot;grid_gallery_enable_arrows&quot;:null,&quot;ajax_page&quot;:&quot;&quot;,&quot;force_not_ajax&quot;:&quot;no&quot;,&quot;lazy_loading&quot;:&quot;no&quot;,&quot;scroll_carousel_init&quot;:&quot;no&quot;,&quot;custom_sizes&quot;:false,&quot;elementor&quot;:true}"
+									data-source="shortcode" data-columns="3" data-grid-gallery="">
+
+
+									<div class="product-grid-item product product-no-swatches wd-hover-base wd-hover-with-fade col-lg-4 col-md-4 col-6 first type-product post-411 status-publish instock product_cat-accessories has-post-thumbnail shipping-taxable purchasable product-type-simple hover-ready"
+										data-loop="1" data-id="411">
+
+
+										<div class="product-wrapper">
+											<div class="content-product-imagin" style="margin-bottom: -115.805px;">
+											</div>
+											<div class="product-element-top wd-quick-shop">
+												<a href="http://localhost:8888/agroplus.com/proizvod/henectus-tincidunt/"
+													class="product-image-link">
+													<img loading="lazy" width="776" height="800"
+														src="http://localhost:8888/agroalati.com/wp-content/themes/agroalati/assets/img/konvektor-F119-1500W.png"
+														class="attachment-large size-large" alt="" decoding="async"
+														srcset="http://localhost:8888/agroalati.com/wp-content/themes/agroalati/assets/img/konvektor-F119-1500W.png 795w, http://localhost:8888/agroalati.com/wp-content/themes/agroalati/assets/img/konvektor-F119-1500W.png 430w, http://localhost:8888/agroplus.com/wp-content/uploads/2021/10/retail-product-11-150x155.jpg 150w, http://localhost:8888/agroalati.com/wp-content/themes/agroalati/assets/img/konvektor-F119-1500W.png 700w"
+														sizes="(max-width: 776px) 100vw, 776px"> </a>
+
+												<div class="hover-img">
+													<a
+														href="http://localhost:8888/agroplus.com/proizvod/henectus-tincidunt/">
+														<img loading="lazy" width="700" height="800"
+															src="http://localhost:8888/agroalati.com/wp-content/themes/agroalati/assets/img/konvektor-F119-1500W.png"
+															class="attachment-large size-large" alt="" decoding="async"
+															srcset=" http://localhost:8888/agroalati.com/wp-content/themes/agroalati/assets/img/konvektor-F119-1500W.png 700w, http://localhost:8888/agroplus.com/wp-content/uploads/2021/08/senectus-tincidunt-2-430x491.jpg 430w, http://localhost:8888/agroplus.com/wp-content/uploads/2021/08/senectus-tincidunt-2-150x171.jpg 150w"
+															sizes="(max-width: 700px) 100vw, 700px"> </a>
+												</div>
+
+												<div class="wrapp-swatches">
+													<div
+														class="wd-compare-btn product-compare-button wd-action-btn wd-style-icon wd-compare-icon">
+														<a href="http://localhost:8888/agroplus.com/compare/"
+															data-id="411" data-added-text="Compare products"
+															data-original-title="" title="" class="wd-tooltip-inited">
+															<span>Uporedi</span>
+														</a>
+													</div>
+												</div>
+
+											</div>
+
+											<div class="product-element-bottom product-information">
+												<h3 class="wd-entities-title"><a
+														href="http://localhost:8888/agroplus.com/proizvod/henectus-tincidunt/">Konvertor
+														F119 1500W</a></h3>
+												<div class="wd-product-cats">
+													<a href="http://localhost:8888/agroplus.com/kategorija-proizvoda/accessories/"
+														rel="tag">Elektricne grijalice</a>
+												</div>
+												<div class="product-rating-price">
+													<div class="wrapp-product-price">
+
+														<span class="price"><span
+																class="woocommerce-Price-amount amount"><bdi>260,00&nbsp;<span
+																		class="woocommerce-Price-currencySymbol">KM</span></bdi></span></span>
+													</div>
+												</div>
+												<div class="fade-in-block wd-scroll">
+													<div class="hover-content wd-more-desc wd-more-desc-calculated">
+														<div class="hover-content-inner wd-more-desc-inner">
+															Consequat a scelerisque suspendisse vel et eget eu vitae
+															adipiscing nibh scelerisque semper cum adipiscing facilisis
+															adipiscing est accumsan lorem vestibulum. Aliquet mus a
+															aptent ullam corper metus accumsan. Habitasse a purus nec
+															ipsum a urna ac ullamcorper varius metus blandit posuere.
+														</div>
+														<a href="http://localhost:8888/agroplus.com/#"
+															class="wd-more-desc-btn wd-shown"
+															aria-label="Read more description"><span></span></a>
+													</div>
+													<div class="wd-bottom-actions wd-add-small-btn">
+														<div class="wrap-wishlist-button">
+															<div
+																class="wd-wishlist-btn wd-action-btn wd-style-icon wd-wishlist-icon">
+																<a class=""
+																	href="http://localhost:8888/agroplus.com/wishlist/"
+																	data-key="6b4973a5cc" data-product-id="411"
+																	data-added-text="Browse Wishlist">
+																	<span>Dodaj u wishlist</span>
+																</a>
+															</div>
+														</div>
+														<div
+															class="wd-add-btn wd-action-btn wd-style-icon wd-add-cart-icon">
+															<a href="http://localhost:8888/agroplus.com/?add-to-cart=411"
+																data-quantity="1"
+																class="button product_type_simple add_to_cart_button ajax_add_to_cart add-to-cart-loop"
+																data-product_id="411" data-product_sku=""
+																aria-label="Dodaj “Henectus tincidunt” u Vašu korpu."
+																aria-describedby=""><span>Dodaj u korpu</span></a>
+														</div>
+														<div class="wrap-quickview-button">
+															<div
+																class="quick-view wd-action-btn wd-style-icon wd-quick-view-icon">
+																<a href="http://localhost:8888/agroplus.com/proizvod/henectus-tincidunt/"
+																	class="open-quick-view quick-view-button"
+																	data-id="411">Quick view</a>
+															</div>
+														</div>
+													</div>
+
+
+
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="product-grid-item product product-no-swatches wd-hover-base wd-hover-with-fade col-lg-4 col-md-4 col-6 type-product post-395 status-publish instock product_cat-accessories has-post-thumbnail shipping-taxable purchasable product-type-variable hover-ready"
+										data-loop="2" data-id="395">
+
+
+										<div class="product-wrapper">
+											<div class="content-product-imagin" style="margin-bottom: -115.805px;">
+											</div>
+											<div class="product-element-top wd-quick-shop">
+												<a href="http://localhost:8888/agroplus.com/proizvod/ornare-auctor/"
+													class="product-image-link">
+													<img loading="lazy" width="776" height="800"
+														src="http://localhost:8888/agroalati.com/wp-content/themes/agroalati/assets/img/grijalica-P15-1500W.png"
+														class="attachment-large size-large" alt="" decoding="async"
+														srcset="http://localhost:8888/agroalati.com/wp-content/themes/agroalati/assets/img/grijalica-P15-1500W.png 795w, http://localhost:8888/agroplus.com/wp-content/uploads/2021/10/retail-product-10-430x444.jpg 430w, http://localhost:8888/agroplus.com/wp-content/uploads/2021/10/retail-product-10-150x155.jpg 150w, http://localhost:8888/agroplus.com/wp-content/uploads/2021/10/retail-product-10-700x722.jpg 700w"
+														sizes="(max-width: 776px) 100vw, 776px"> </a>
+
+												<div class="hover-img">
+													<a
+														href="http://localhost:8888/agroplus.com/proizvod/ornare-auctor/">
+														<img loading="lazy" width="700" height="800"
+															src="http://localhost:8888/agroalati.com/wp-content/themes/agroalati/assets/img/grijalica-P15-1500W.png"
+															class="attachment-large size-large" alt="" decoding="async"
+															srcset="http://localhost:8888/agroalati.com/wp-content/themes/agroalati/assets/img/grijalica-P15-1500W.png 700w, http://localhost:8888/agroplus.com/wp-content/uploads/2021/08/ornare-auctor-2-430x491.jpg 430w, http://localhost:8888/agroplus.com/wp-content/uploads/2021/08/ornare-auctor-2-150x171.jpg 150w"
+															sizes="(max-width: 700px) 100vw, 700px"> </a>
+												</div>
+
+												<div class="wrapp-swatches">
+													<div
+														class="wd-compare-btn product-compare-button wd-action-btn wd-style-icon wd-compare-icon">
+														<a href="http://localhost:8888/agroplus.com/compare/"
+															data-id="395" data-added-text="Compare products">
+															<span>Compare</span>
+														</a>
+													</div>
+												</div>
+
+											</div>
+
+											<div class="product-element-bottom product-information">
+												<h3 class="wd-entities-title"><a
+														href="http://localhost:8888/agroplus.com/proizvod/ornare-auctor/">Grijalica
+														P15 1500W</a></h3>
+												<div class="wd-product-cats">
+													<a href="http://localhost:8888/agroplus.com/kategorija-proizvoda/accessories/"
+														rel="tag">Elektricne grijalice</a>
+												</div>
+												<div class="product-rating-price">
+													<div class="wrapp-product-price">
+
+														<span class="price"><span
+																class="woocommerce-Price-amount amount"><bdi>329,00&nbsp;<span
+																		class="woocommerce-Price-currencySymbol">KM</span></bdi></span></span>
+													</div>
+												</div>
+												<div class="fade-in-block wd-scroll">
+													<div class="hover-content wd-more-desc wd-more-desc-calculated">
+														<div class="hover-content-inner wd-more-desc-inner">
+															Consequat a scelerisque suspendisse vel et eget eu vitae
+															adipiscing nibh scelerisque semper cum adipiscing facilisis
+															adipiscing est accumsan lorem vestibulum. Aliquet mus a
+															aptent ullam corper metus accumsan. Habitasse a purus nec
+															ipsum a urna ac ullamcorper varius metus blandit posuere.
+														</div>
+														<a href="http://localhost:8888/agroplus.com/#"
+															class="wd-more-desc-btn wd-shown"
+															aria-label="Read more description"><span></span></a>
+													</div>
+													<div class="wd-bottom-actions wd-add-small-btn">
+														<div class="wrap-wishlist-button">
+															<div
+																class="wd-wishlist-btn wd-action-btn wd-style-icon wd-wishlist-icon">
+																<a class=""
+																	href="http://localhost:8888/agroplus.com/wishlist/"
+																	data-key="6b4973a5cc" data-product-id="395"
+																	data-added-text="Browse Wishlist">
+																	<span>Add to wishlist</span>
+																</a>
+															</div>
+														</div>
+														<div
+															class="wd-add-btn wd-action-btn wd-style-icon wd-add-cart-icon">
+															<a href="http://localhost:8888/agroplus.com/proizvod/ornare-auctor/"
+																data-quantity="1"
+																class="button product_type_variable add_to_cart_button add-to-cart-loop"
+																data-product_id="395" data-product_sku=""
+																aria-label="Odaberi opcije za “Ornare auctor”"
+																aria-describedby="This product has multiple variants. The options may be chosen on the product page"><span>Odaberi
+																	opcije</span></a>
+														</div>
+														<div class="wrap-quickview-button">
+															<div
+																class="quick-view wd-action-btn wd-style-icon wd-quick-view-icon">
+																<a href="http://localhost:8888/agroplus.com/proizvod/ornare-auctor/"
+																	class="open-quick-view quick-view-button"
+																	data-id="395">Quick view</a>
+															</div>
+														</div>
+													</div>
+
+
+
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="product-grid-item product product-no-swatches wd-hover-base wd-hover-with-fade col-lg-4 col-md-4 col-6 last type-product post-381 status-publish last instock product_cat-furniture has-post-thumbnail shipping-taxable purchasable product-type-variable hover-ready"
+										data-loop="3" data-id="381">
+
+
+										<div class="product-wrapper">
+											<div class="content-product-imagin" style="margin-bottom: -115.805px;">
+											</div>
+											<div class="product-element-top wd-quick-shop">
+												<a href="http://localhost:8888/agroplus.com/proizvod/eames-plastic-side-chair/"
+													class="product-image-link">
+													<div class="product-labels labels-rectangular"><span
+															class="new product-label">New</span></div> <img
+														loading="lazy" width="700" height="800"
+														src="http://localhost:8888/agroalati.com/wp-content/themes/agroalati/assets/img/konvektor-F119-1500W.png"
+														class="attachment-large size-large" alt="" decoding="async"
+														srcset=" http://localhost:8888/agroalati.com/wp-content/themes/agroalati/assets/img/konvektor-F119-1500W.png 700w, http://localhost:8888/agroplus.com/wp-content/uploads/2021/08/senectus-tincidunt-2-430x491.jpg 430w, http://localhost:8888/agroplus.com/wp-content/uploads/2021/08/senectus-tincidunt-2-150x171.jpg 150w"
+														sizes="(max-width: 700px) 100vw, 700px">
+												</a>
+
+												<div class="hover-img">
+													<a
+														href="http://localhost:8888/agroplus.com/proizvod/eames-plastic-side-chair/">
+														<img loading="lazy" width="700" height="800"
+															src="http://localhost:8888/agroalati.com/wp-content/themes/agroalati/AgroPlus_files/eames-plastic-side-chair-2.jpg"
+															class="attachment-large size-large" alt="" decoding="async"
+															srcset="http://localhost:8888/agroplus.com/wp-content/uploads/2021/08/eames-plastic-side-chair-2.jpg 700w, http://localhost:8888/agroplus.com/wp-content/uploads/2021/08/eames-plastic-side-chair-2-430x491.jpg 430w, http://localhost:8888/agroplus.com/wp-content/uploads/2021/08/eames-plastic-side-chair-2-150x171.jpg 150w"
+															sizes="(max-width: 700px) 100vw, 700px"> </a>
+												</div>
+
+												<div class="wrapp-swatches">
+													<div
+														class="wd-compare-btn product-compare-button wd-action-btn wd-style-icon wd-compare-icon">
+														<a href="http://localhost:8888/agroplus.com/compare/"
+															data-id="381" data-added-text="Compare products"
+															data-original-title="" title="" class="wd-tooltip-inited">
+															<span>Compare</span>
+														</a>
+													</div>
+												</div>
+
+											</div>
+
+											<div class="product-element-bottom product-information">
+												<h3 class="wd-entities-title"><a
+														href="http://localhost:8888/agroplus.com/proizvod/eames-plastic-side-chair/">Konvertor
+														F119 1500W</a></h3>
+												<div class="wd-product-cats">
+													<a href="http://localhost:8888/agroplus.com/kategorija-proizvoda/furniture/"
+														rel="tag">Elektricne grijalice</a>
+												</div>
+												<div class="product-rating-price">
+													<div class="wrapp-product-price">
+
+														<span class="price"><span
+																class="woocommerce-Price-amount amount"><bdi>260,00&nbsp;<span
+																		class="woocommerce-Price-currencySymbol">KM</span></bdi></span></span>
+													</div>
+												</div>
+												<div class="fade-in-block wd-scroll">
+													<div class="hover-content wd-more-desc wd-more-desc-calculated">
+														<div class="hover-content-inner wd-more-desc-inner">
+															Consequat a scelerisque suspendisse vel et eget eu vitae
+															adipiscing nibh scelerisque semper cum adipiscing facilisis
+															adipiscing est accumsan lorem vestibulum. Aliquet mus a
+															aptent ullam corper metus accumsan. Habitasse a purus nec
+															ipsum a urna ac ullamcorper varius metus blandit posuere.
+														</div>
+														<a href="http://localhost:8888/agroplus.com/#"
+															class="wd-more-desc-btn wd-shown"
+															aria-label="Read more description"><span></span></a>
+													</div>
+													<div class="wd-bottom-actions wd-add-small-btn">
+														<div class="wrap-wishlist-button">
+															<div
+																class="wd-wishlist-btn wd-action-btn wd-style-icon wd-wishlist-icon">
+																<a class=""
+																	href="http://localhost:8888/agroplus.com/wishlist/"
+																	data-key="6b4973a5cc" data-product-id="381"
+																	data-added-text="Browse Wishlist">
+																	<span>Add to wishlist</span>
+																</a>
+															</div>
+														</div>
+														<div
+															class="wd-add-btn wd-action-btn wd-style-icon wd-add-cart-icon">
+															<a href="http://localhost:8888/agroplus.com/proizvod/eames-plastic-side-chair/"
+																data-quantity="1"
+																class="button product_type_variable add_to_cart_button add-to-cart-loop"
+																data-product_id="381" data-product_sku=""
+																aria-label="Odaberi opcije za “Eames plastic side chair”"
+																aria-describedby="This product has multiple variants. The options may be chosen on the product page"><span>Odaberi
+																	opcije</span></a>
+														</div>
+														<div class="wrap-quickview-button">
+															<div
+																class="quick-view wd-action-btn wd-style-icon wd-quick-view-icon">
+																<a href="http://localhost:8888/agroplus.com/proizvod/eames-plastic-side-chair/"
+																	class="open-quick-view quick-view-button"
+																	data-id="381">Quick view</a>
+															</div>
+														</div>
+													</div>
+
+
+
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="product-grid-item product product-no-swatches wd-hover-base wd-hover-with-fade  col-lg-4 col-md-4 col-6 first  type-product post-372 status-publish first instock product_cat-furniture has-post-thumbnail shipping-taxable purchasable product-type-simple"
+										data-loop="4" data-id="372">
+
+
+										<div class="product-wrapper">
+											<div class="content-product-imagin"></div>
+											<div class="product-element-top wd-quick-shop">
+												<a href="http://localhost:8888/agroplus.com/proizvod/augue-adipiscing-euismod/"
+													class="product-image-link">
+													<img loading="lazy" width="776" height="800"
+														src="http://localhost:8888/agroalati.com/wp-content/themes/agroalati/assets/img/grijalica-P15-1500W.png"
+														class="attachment-large size-large" alt="" decoding="async"
+														srcset="http://localhost:8888/agroalati.com/wp-content/themes/agroalati/assets/img/grijalica-P15-1500W.png 795w, http://localhost:8888/agroplus.com/wp-content/uploads/2021/10/retail-product-10-430x444.jpg 430w, http://localhost:8888/agroplus.com/wp-content/uploads/2021/10/retail-product-10-150x155.jpg 150w, http://localhost:8888/agroplus.com/wp-content/uploads/2021/10/retail-product-10-700x722.jpg 700w"
+														sizes="(max-width: 776px) 100vw, 776px"> </a>
+
+												<div class="hover-img">
+													<a
+														href="http://localhost:8888/agroplus.com/proizvod/augue-adipiscing-euismod/">
+														<img loading="lazy" width="700" height="800"
+															src="http://localhost:8888/agroalati.com/wp-content/themes/agroalati/AgroPlus_files/variable-product-example-2.jpg"
+															class="attachment-large size-large" alt="" decoding="async"
+															srcset="http://localhost:8888/agroplus.com/wp-content/uploads/2021/08/variable-product-example-2.jpg 700w, http://localhost:8888/agroplus.com/wp-content/uploads/2021/08/variable-product-example-2-430x491.jpg 430w, http://localhost:8888/agroplus.com/wp-content/uploads/2021/08/variable-product-example-2-150x171.jpg 150w"
+															sizes="(max-width: 700px) 100vw, 700px"> </a>
+												</div>
+
+												<div class="wrapp-swatches">
+													<div
+														class="wd-compare-btn product-compare-button wd-action-btn wd-style-icon wd-compare-icon">
+														<a href="http://localhost:8888/agroplus.com/compare/"
+															data-id="372" data-added-text="Compare products">
+															<span>Compare</span>
+														</a>
+													</div>
+												</div>
+
+											</div>
+
+											<div class="product-element-bottom product-information">
+												<h3 class="wd-entities-title"><a
+														href="http://localhost:8888/agroplus.com/proizvod/augue-adipiscing-euismod/">Grijalica
+														P15 1500W</a></h3>
+												<div class="wd-product-cats">
+													<a href="http://localhost:8888/agroplus.com/kategorija-proizvoda/furniture/"
+														rel="tag">Elektricne grijalice</a>
+												</div>
+												<div class="product-rating-price">
+													<div class="wrapp-product-price">
+
+														<span class="price"><span
+																class="woocommerce-Price-amount amount"><bdi>329,00&nbsp;<span
+																		class="woocommerce-Price-currencySymbol">KM</span></bdi></span></span>
+													</div>
+												</div>
+												<div class="fade-in-block wd-scroll">
+													<div class="hover-content wd-more-desc">
+														<div class="hover-content-inner wd-more-desc-inner">
+															Scelerisque facilisi rhoncus non faucibus parturient
+															senectus lobortis a ullamcorper vestibulum mi nibh ultricies
+															a parturient gravida a vestibulum leo sem in. Est cum
+															torquent mi in scelerisque leo aptent per at vitae ante
+															eleifend mollis adipiscing. </div>
+														<a href="http://localhost:8888/agroplus.com/#"
+															class="wd-more-desc-btn"
+															aria-label="Read more description"><span></span></a>
+													</div>
+													<div class=" wd-bottom-actions">
+														<div class="wrap-wishlist-button">
+															<div
+																class="wd-wishlist-btn wd-action-btn wd-style-icon wd-wishlist-icon">
+																<a class=""
+																	href="http://localhost:8888/agroplus.com/wishlist/"
+																	data-key="6b4973a5cc" data-product-id="372"
+																	data-added-text="Browse Wishlist">
+																	<span>Add to wishlist</span>
+																</a>
+															</div>
+														</div>
+														<div class="wd-add-btn wd-add-btn-replace">
+															<a href="http://localhost:8888/agroplus.com/?add-to-cart=372"
+																data-quantity="1"
+																class="button product_type_simple add_to_cart_button ajax_add_to_cart add-to-cart-loop"
+																data-product_id="372" data-product_sku="MNK-001"
+																aria-label="Dodaj “Augue adipiscing euismod” u Vašu korpu."
+																aria-describedby=""><span>Dodaj u korpu</span></a>
+														</div>
+														<div class="wrap-quickview-button">
+															<div
+																class="quick-view wd-action-btn wd-style-icon wd-quick-view-icon">
+																<a href="http://localhost:8888/agroplus.com/proizvod/augue-adipiscing-euismod/"
+																	class="open-quick-view quick-view-button"
+																	data-id="372">Quick view</a>
+															</div>
+														</div>
+													</div>
+
+
+
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="product-grid-item wd-with-labels product has-stars product-no-swatches wd-hover-base wd-hover-with-fade col-lg-4 col-md-4 col-6 type-product post-361 status-publish instock product_cat-toys has-post-thumbnail sale shipping-taxable purchasable product-type-simple hover-ready"
+										data-loop="5" data-id="361">
+
+
+										<div class="product-wrapper">
+											<div class="content-product-imagin" style="margin-bottom: -115.805px;">
+											</div>
+											<div class="product-element-top wd-quick-shop">
+												<a href="http://localhost:8888/agroplus.com/proizvod/iphone-dock/"
+													class="product-image-link">
+													<div class="product-labels labels-rectangular"><span
+															class="onsale product-label">-13%</span></div>
+													<img loading="lazy" width="776" height="800"
+														src="http://localhost:8888/agroalati.com/wp-content/themes/agroalati/assets/img/konvektor-F119-1500W.png"
+														class="attachment-large size-large" alt="" decoding="async"
+														srcset="http://localhost:8888/agroalati.com/wp-content/themes/agroalati/assets/img/konvektor-F119-1500W.png 795w, http://localhost:8888/agroalati.com/wp-content/themes/agroalati/assets/img/konvektor-F119-1500W.png 430w, http://localhost:8888/agroplus.com/wp-content/uploads/2021/10/retail-product-11-150x155.jpg 150w, http://localhost:8888/agroalati.com/wp-content/themes/agroalati/assets/img/konvektor-F119-1500W.png 700w"
+														sizes="(max-width: 776px) 100vw, 776px">
+												</a>
+
+												<div class="hover-img">
+													<a href="http://localhost:8888/agroplus.com/proizvod/iphone-dock/">
+														<img loading="lazy" width="700" height="800"
+															src="http://localhost:8888/agroalati.com/wp-content/themes/agroalati/AgroPlus_files/iphone-dock-2.jpg"
+															class="attachment-large size-large" alt="" decoding="async"
+															srcset="http://localhost:8888/agroplus.com/wp-content/uploads/2021/08/iphone-dock-2.jpg 700w, http://localhost:8888/agroplus.com/wp-content/uploads/2021/08/iphone-dock-2-430x491.jpg 430w, http://localhost:8888/agroplus.com/wp-content/uploads/2021/08/iphone-dock-2-150x171.jpg 150w"
+															sizes="(max-width: 700px) 100vw, 700px"> </a>
+												</div>
+
+												<div class="wrapp-swatches">
+													<div
+														class="wd-compare-btn product-compare-button wd-action-btn wd-style-icon wd-compare-icon">
+														<a href="http://localhost:8888/agroplus.com/compare/"
+															data-id="361" data-added-text="Compare products"
+															data-original-title="" title="" class="wd-tooltip-inited">
+															<span>Compare</span>
+														</a>
+													</div>
+												</div>
+
+											</div>
+
+											<div class="product-element-bottom product-information">
+												<h3 class="wd-entities-title"><a
+														href="http://localhost:8888/agroplus.com/proizvod/iphone-dock/">Konvertor
+														F119 1500W</a></h3>
+												<div class="wd-product-cats">
+													<a href="http://localhost:8888/agroplus.com/kategorija-proizvoda/toys/"
+														rel="tag">Elektricne grijalice</a>
+												</div>
+												<div class="product-rating-price">
+													<div class="wrapp-product-price">
+
+														<span class="price"><del aria-hidden="true"><span
+																	class="woocommerce-Price-amount amount"><bdi>349,00&nbsp;<span
+																			class="woocommerce-Price-currencySymbol">KM</span></bdi></span></del>
+															<ins><span class="woocommerce-Price-amount amount"><bdi>260,00&nbsp;<span
+																			class="woocommerce-Price-currencySymbol">KM</span></bdi></span></ins></span>
+
+														<div class="star-rating" role="img"
+															aria-label="Ocjenjeno 4.00 od 5">
+															<span style="width:80%">
+																Ocjenjeno <strong class="rating">4.00</strong> od 5
+															</span>
+														</div>
+
+
+													</div>
+												</div>
+												<div class="fade-in-block wd-scroll">
+													<div class="hover-content wd-more-desc wd-more-desc-calculated">
+														<div class="hover-content-inner wd-more-desc-inner">
+															Consequat a scelerisque suspendisse vel et eget eu vitae
+															adipiscing nibh scelerisque semper cum adipiscing facilisis
+															adipiscing est accumsan lorem vestibulum. </div>
+														<a href="http://localhost:8888/agroplus.com/#"
+															class="wd-more-desc-btn wd-shown"
+															aria-label="Read more description"><span></span></a>
+													</div>
+													<div class="wd-bottom-actions wd-add-small-btn">
+														<div class="wrap-wishlist-button">
+															<div
+																class="wd-wishlist-btn wd-action-btn wd-style-icon wd-wishlist-icon">
+																<a class=""
+																	href="http://localhost:8888/agroplus.com/wishlist/"
+																	data-key="6b4973a5cc" data-product-id="361"
+																	data-added-text="Browse Wishlist">
+																	<span>Add to wishlist</span>
+																</a>
+															</div>
+														</div>
+														<div
+															class="wd-add-btn wd-action-btn wd-style-icon wd-add-cart-icon">
+															<a href="http://localhost:8888/agroplus.com/?add-to-cart=361"
+																data-quantity="1"
+																class="button product_type_simple add_to_cart_button ajax_add_to_cart add-to-cart-loop"
+																data-product_id="361" data-product_sku=""
+																aria-label="Dodaj “iPhone dock” u Vašu korpu."
+																aria-describedby=""><span>Dodaj u korpu</span></a>
+														</div>
+														<div class="wrap-quickview-button">
+															<div
+																class="quick-view wd-action-btn wd-style-icon wd-quick-view-icon">
+																<a href="http://localhost:8888/agroplus.com/proizvod/iphone-dock/"
+																	class="open-quick-view quick-view-button"
+																	data-id="361">Quick view</a>
+															</div>
+														</div>
+													</div>
+
+
+
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="product-grid-item wd-with-labels product has-stars product-no-swatches wd-hover-base wd-hover-with-fade col-lg-4 col-md-4 col-6 last type-product post-344 status-publish instock product_cat-accessories has-post-thumbnail featured shipping-taxable purchasable product-type-simple hover-ready"
+										data-loop="6" data-id="344">
+
+
+										<div class="product-wrapper">
+											<div class="content-product-imagin" style="margin-bottom: -115.805px;">
+											</div>
+											<div class="product-element-top wd-quick-shop">
+												<a href="http://localhost:8888/agroplus.com/proizvod/wine-bottle-lantern/"
+													class="product-image-link">
+													<div class="product-labels labels-rectangular"><span
+															class="featured product-label">Hot</span></div><img
+														loading="lazy" width="776" height="800"
+														src="http://localhost:8888/agroalati.com/wp-content/themes/agroalati/assets/img/grijalica-P15-1500W.png"
+														class="attachment-large size-large" alt="" decoding="async"
+														srcset="http://localhost:8888/agroalati.com/wp-content/themes/agroalati/assets/img/grijalica-P15-1500W.png 795w, http://localhost:8888/agroplus.com/wp-content/uploads/2021/10/retail-product-10-430x444.jpg 430w, http://localhost:8888/agroplus.com/wp-content/uploads/2021/10/retail-product-10-150x155.jpg 150w, http://localhost:8888/agroplus.com/wp-content/uploads/2021/10/retail-product-10-700x722.jpg 700w"
+														sizes="(max-width: 776px) 100vw, 776px">
+												</a>
+
+												<div class="hover-img">
+													<a
+														href="http://localhost:8888/agroplus.com/proizvod/wine-bottle-lantern/">
+														<img loading="lazy" width="700" height="800"
+															src="http://localhost:8888/agroalati.com/wp-content/themes/agroalati/AgroPlus_files/wine-bottle-lantern-2.jpg"
+															class="attachment-large size-large" alt="" decoding="async"
+															srcset="http://localhost:8888/agroplus.com/wp-content/uploads/2021/08/wine-bottle-lantern-2.jpg 700w, http://localhost:8888/agroplus.com/wp-content/uploads/2021/08/wine-bottle-lantern-2-430x491.jpg 430w, http://localhost:8888/agroplus.com/wp-content/uploads/2021/08/wine-bottle-lantern-2-150x171.jpg 150w"
+															sizes="(max-width: 700px) 100vw, 700px"> </a>
+												</div>
+
+												<div class="wrapp-swatches">
+													<div
+														class="wd-compare-btn product-compare-button wd-action-btn wd-style-icon wd-compare-icon">
+														<a href="http://localhost:8888/agroplus.com/compare/"
+															data-id="344" data-added-text="Compare products">
+															<span>Compare</span>
+														</a>
+													</div>
+												</div>
+
+											</div>
+
+											<div class="product-element-bottom product-information">
+												<h3 class="wd-entities-title"><a
+														href="http://localhost:8888/agroplus.com/proizvod/wine-bottle-lantern/">Grijalica
+														P15 1500W</a></h3>
+												<div class="wd-product-cats">
+													<a href="http://localhost:8888/agroplus.com/kategorija-proizvoda/accessories/"
+														rel="tag">Elektricne grijalice</a>
+												</div>
+												<div class="product-rating-price">
+													<div class="wrapp-product-price">
+
+														<span class="price"><span
+																class="woocommerce-Price-amount amount"><bdi>329,00&nbsp;<span
+																		class="woocommerce-Price-currencySymbol">KM</span></bdi></span></span>
+
+														<div class="star-rating" role="img"
+															aria-label="Ocjenjeno 4.00 od 5">
+															<span style="width:80%">
+																Ocjenjeno <strong class="rating">4.00</strong> od 5
+															</span>
+														</div>
+
+
+													</div>
+												</div>
+												<div class="fade-in-block wd-scroll">
+													<div class="hover-content wd-more-desc wd-more-desc-calculated">
+														<div class="hover-content-inner wd-more-desc-inner">
+															Consequat a scelerisque suspendisse vel et eget eu vitae
+															adipiscing nibh scelerisque semper cum adipiscing facilisis
+															adipiscing est accumsan lorem vestibulum. Aliquet mus a
+															aptent ullam corper metus accumsan. Habitasse a purus nec
+															ipsum a urna ac ullamcorper varius metus blandit posuere.
+														</div>
+														<a href="http://localhost:8888/agroplus.com/#"
+															class="wd-more-desc-btn wd-shown"
+															aria-label="Read more description"><span></span></a>
+													</div>
+													<div class="wd-bottom-actions wd-add-small-btn">
+														<div class="wrap-wishlist-button">
+															<div
+																class="wd-wishlist-btn wd-action-btn wd-style-icon wd-wishlist-icon">
+																<a class=""
+																	href="http://localhost:8888/agroplus.com/wishlist/"
+																	data-key="6b4973a5cc" data-product-id="344"
+																	data-added-text="Browse Wishlist">
+																	<span>Add to wishlist</span>
+																</a>
+															</div>
+														</div>
+														<div
+															class="wd-add-btn wd-action-btn wd-style-icon wd-add-cart-icon">
+															<a href="http://localhost:8888/agroplus.com/?add-to-cart=344"
+																data-quantity="1"
+																class="button product_type_simple add_to_cart_button ajax_add_to_cart add-to-cart-loop"
+																data-product_id="344" data-product_sku=""
+																aria-label="Dodaj “Wine bottle lantern” u Vašu korpu."
+																aria-describedby=""><span>Dodaj u korpu</span></a>
+														</div>
+														<div class="wrap-quickview-button">
+															<div
+																class="quick-view wd-action-btn wd-style-icon wd-quick-view-icon">
+																<a href="http://localhost:8888/agroplus.com/proizvod/wine-bottle-lantern/"
+																	class="open-quick-view quick-view-button"
+																	data-id="344">Quick view</a>
+															</div>
+														</div>
+													</div>
+
+
+
+												</div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+
+
+								<div class="wd-loop-footer products-footer">
+									<div class="wrap-loading-arrow">
+										<div class="wd-products-load-prev wd-btn-arrow disabled"
+											style="left: 521.734375px;"></div>
+										<div class="wd-products-load-next wd-btn-arrow" style="left: 1270.484375px;">
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+    <?php
+    //end of banner slider
+}
+
+add_shortcode('productSlider', 'fpsl_productSlider');

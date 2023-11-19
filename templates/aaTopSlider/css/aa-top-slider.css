@@ -1,0 +1,130 @@
+.AATopSLiderText {
+    position: absolute;
+    top: 17%;
+    left: 57%;
+    transform: translateX(-50%); /* Use transform to center horizontally */
+    width: 800px;
+    height: 100%;
+    padding: 20px;
+    background: transparent;
+    color: rgb(244,165,28);
+    z-index: 1;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  
+
+}
+
+
+.AATopSLiderText .header-title {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.AATopSLiderText .para-title {
+    color: white;
+    font-size: 50px;
+    font-weight: 400;
+    
+}
+
+.AATopSLiderText .row {
+    justify-content: center;
+}
+
+
+.AATopSLiderText .wd-button-wrapper {padding: 0 10px;}
+
+.image-overlay {
+    position: relative;
+}
+
+.image-overlay::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* Adjust the opacity value to control darkness */
+    z-index: 1;
+    pointer-events: none; /* Allows clicks to go through the overlay to the image */
+}
+
+
+picture source, picture img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* For desktop: */
+@media (min-width: 1199px) {
+    .AATopSLiderText {
+        top: 10%;
+        left: 60%;
+    }
+  }
+/* For desktop: */
+@media (min-width: 992px) {
+    .AATopSLiderText {
+        top: 10%;
+        left: 60%;
+    }
+    .AATopSLiderText .header-title {
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .AATopSLiderText .para-title {
+        color: white;
+        font-size: 50px;
+        font-weight: 400;
+    }
+  }
+  
+  /* For tablet: */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .AATopSLiderText {
+        top: 40px;
+        left: 50%;
+    }
+    .AATopSLiderText .header-title {
+        text-transform: uppercase;
+        font-size: 2vw;
+        font-weight: 600;
+    }
+    .AATopSLiderText .para-title {
+        color: white;
+        font-size: 4vw;
+        font-weight: 400;
+    }
+  }
+@media (max-width: 767px){
+    .AATopSLiderText .header-title  {
+    font-size: 16px;
+}
+
+.AATopSLiderText .para-title {
+    color: white;
+    font-size: 25px;
+}
+.AATopSLiderText {
+    left: 50%;
+    top: 40px;
+    transform: translateX(-50%);
+    width: 100%;
+    padding: 20px 15px;
+    display: flex;
+    align-items: center;
+}
+}
+
+

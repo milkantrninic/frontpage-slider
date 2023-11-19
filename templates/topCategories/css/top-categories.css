@@ -1,0 +1,24 @@
+
+.topCategoriesSwiper.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .topCategoriesSwiper .swiper-slide {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .topCategoriesSwiper .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .topCategoriesSwiper .products:not(.wd-img-width) .cat-design-alt img {
+    width: auto;
+    margin: 0 auto;
+}
